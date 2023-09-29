@@ -7,10 +7,13 @@ function App() {
    
   return (
     <>
+    <div data-theme="dark">
       <Navbar/>
       <Cardcontainer/>
+      <div data-theme="dracula">
       <Footer/>
-      
+      </div>
+      </div>
     </>
   )
 }
