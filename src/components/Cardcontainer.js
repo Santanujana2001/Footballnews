@@ -6,7 +6,7 @@ import Pagination from "./Pagination";
 function Cardcontainer() {
     const [viddata, setviddata] = useState([])
     const [currentpage, setcurrentpage] = useState(1)
-    const [postperpage, setpostperpage] = useState(12)
+    const postperpage = 12
     const getdata = async () => {
         const options = {
           method: "GET",
